@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="logo">
+          <h1>
+            <i
+              class="fa-sharp fa-solid fa-ticket fa-flip"
+              style="color: #da990b"
+            ></i
+            >Cine<span>Ta</span>
+          </h1>
+        </div>
+
+        <div class="logo-three"></div>
+
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#" id="register-link">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="image">
+              <div class="black">
+                <h1>John Wick 4</h1>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>
+                  John Wick uncovers a path to defeating The High Table. But
+                  before he can earn his freedom, Wick must face off against a
+                  new enemy with powerful alliances across the globe and forces
+                  that turn old friends into foes.
+                </p>
+                <div class="genre">
+                  <a href="#" class="category">Action</a>
+                  <a href="#" class="category">Crime</a>
+                  <a href="#" class="category"><span>4K</span></a>
+                </div>
+                <div class="watch">
+                  <i class="fa-solid fa-play" id="john-play"></i>
+                  <p>Watch the trailer</p>
+                </div>
+                <div class="buy">
+                  <i class="fa-solid fa-ticket"></i>
+                  <p>Buy Ticket</p>
+                </div>
+              </div>
+
+              <img src="images/john.jpg" />
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="image">
+              <div class="black">
+                <h1>Everything Everywhere All At Once</h1>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>
+                  A middle-aged Chinese immigrant is swept up into an insane
+                  adventure in which she alone can save existence by exploring
+                  other universes and connecting with the lives she could have
+                  led.
+                </p>
+                <div class="genre">
+                  <a href="#" class="category">Action</a>
+                  <a href="#" class="category">Adventure</a>
+                  <a href="#" class="category"><span>Comedy</span></a>
+                </div>
+                <div class="watch">
+                  <i class="fa-solid fa-play"></i>
+                  <p>Watch the trailer</p>
+                </div>
+                <div class="buy">
+                  <i class="fa-solid fa-ticket"></i>
+                  <p>Buy Ticket</p>
+                </div>
+              </div>
+
+              <img src="images/everything.jpg" />
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="image">
+              <div class="black">
+                <h1>Avatar: The Way of Water</h1>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>
+                  Jake Sully lives with his newfound family formed on the
+                  extrasolar moon Pandora. Once a familiar threat returns to
+                  finish what was previously started, Jake must work with
+                  Neytiri and the army of the Na'vi race to protect their home.
+                </p>
+                <div class="genre">
+                  <a href="#" class="category">Action</a>
+                  <a href="#" class="category">Adventure</a>
+                  <a href="#" class="category"><span>Fantasy</span></a>
+                </div>
+                <div class="watch">
+                  <i class="fa-solid fa-play"></i>
+                  <p>Watch the trailer</p>
+                </div>
+                <div class="buy">
+                  <i class="fa-solid fa-ticket"></i>
+                  <p>Buy Ticket</p>
+                </div>
+              </div>
+
+              <img src="images/avatar.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="modal-register">
+      <div class="form-box">
+        <div class="form-value">
+          <form action="">
+            <h2>Register</h2>
+            <div class="inputbox">
+              <ion-icon name="person-circle-outline"></ion-icon>
+              <input type="username" required />
+              <label for="">Username</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input type="email" required />
+              <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" required />
+              <label for="">Password</label>
+            </div>
+
+            <button>Register</button>
+          </form>
+        </div>
+        <div class="exit-button">
+          <ion-icon name="close-circle-outline" class="exit" id="exit"></ion-icon>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      const johnPlayIcon = document.getElementById("john-play");
+      const videoTrailerURL = "https://www.youtube.com/watch?v=yjRHZEUamCc";
+
+      johnPlayIcon.addEventListener("click", function () {
+        window.location.href = videoTrailerURL;
+      });
+
+      // Get the modal
+      var modal = document.getElementById("modal");
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      // get the button element
+      var button = document.getElementById("register-link");
+      var exit = document.getElementById("exit");
+
+      // get the form box element
+      var formBox = document.querySelector(".modal-register");
+
+      // add event listener to the button
+      button.addEventListener("click", function () {
+        // toggle the display property of the form box element
+        if (formBox.style.display === "none") {
+          formBox.style.display = "flex";
+        } else {
+          formBox.style.display = "none";
+        }
+      });
+
+      exit.addEventListener("click", function () {
+        // toggle the display property of the form box element
+        if (formBox.style.display === "none") {
+          formBox.style.display = "flex";
+        } else {
+          formBox.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
