@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inventory System</title>
+    <link rel="stylesheet" type="text/css" href="styles-movies.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Booking System</h1>
+        <nav>
+            <ul>
+                <li><a href="/Dashboard/home.html">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Today's Booking</a></li>
+                <li><a href="#">Customers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Add Movie Booking</h2>
+        </section>
+
+        <div class="container-main">
+            
+            <form action="">
+                <div class="person-info">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    <br>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    <br>
+                    <label for="contact-number">Contact Number:</label>
+                    <input type="tel" id="contact-number" name="contact-number" required>
+                    <br>
+                </div>
+                <div class="select">
+                    <p>Select Movies</p>
+                    <select name="movie" id="movie">
+                        <option value="johnwick">John Wick 4</option>
+                        <option value="everything">Everything Everywhere All At Once</option>
+                        <option value="avatar">Avatar: The Way of Water</option>
+                    </select>
+                </div>
+    
+                <div class="screen">
+                    <p>Select Screen</p>
+                    <select name="screen" id="screen">
+                        <option value="3d">3D Screen</option>
+                        <option value="2d">2D Screen</option>
+                        <option value="imax">IMAX Screen</option>
+                    </select>
+                </div>
+    
+    
+                <div class="time">
+                    <p>Select Show Times</p>
+                    <select name="screen" id="screen">
+                        <option value="morning">Morning(9:00AM)</option>
+                        <option value="noon">Noon(12:00PM)</option>
+                        <option value="afternoon">Afternoon(5:30PM)</option>
+                    </select>
+                </div>
+    
+    
+                <div class="date">
+                    <p>Start Date</p>
+                    <input type="date" id="date" name="date">
+                </div>
+    
+                <div class="submit">
+                    <button class="submit-button">Submit</button>
+                </div>
+            </form>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 CineTa System</p>
+    </footer>
+</body>
+
+</html>
